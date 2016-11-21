@@ -1,0 +1,42 @@
+{
+  "name": "btpn_chat",
+  "version": "1.0.0",
+  "description": "Chat React Firechat",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --port 7000 --content-base src --inline --hot",
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "firechat"
+  ],
+  "dependencies": {
+    "async": "^2.1.2",
+    "axios": "^0.15.2",
+    "body-parser": "^1.15.2",
+    "classnames": "^2.2.5",
+    "express": "^4.14.0",
+    "firebase": "^3.6.1",
+    "firebase-admin": "^4.0.2",
+    "firechat": "^3.0.1",
+    "flux": "^3.1.0",
+    "keymirror": "^0.1.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-plugin-transform-class-properties": "^6.16.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0"
+  },
+  "author": "Ari Firmanto",
+  "license": "MIT"
+}
